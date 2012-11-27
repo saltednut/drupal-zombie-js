@@ -1,7 +1,5 @@
-drupal-zombie-js
-================
-
-Drupal with Zombie.js
+Drupal Testing with Zombie.js
+=============================
 
 Some insanely fast, headless browser testing for Drupal using Zombie.js
 
