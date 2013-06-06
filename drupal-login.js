@@ -6,7 +6,7 @@ var pass = "password";
 
 // Load the page from localhost
 browser = new Browser();
-browser.site = "http://sandbox.d7";
+browser.site = "http://localhost";
 browser.visit("/", function () {
   // Fill email, password and submit form
   browser.

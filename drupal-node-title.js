@@ -5,7 +5,7 @@ var assert = require("assert");
 var nid = 1;
 
 browser = new Browser({debug: true});
-browser.site = "http://sandbox.d7";
+browser.site = "http://localhost";
 browser.visit("/node/" + nid).
   then(function() {
     var h1 = browser.text('h1');

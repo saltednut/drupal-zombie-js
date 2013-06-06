@@ -5,7 +5,7 @@ pass = "password"
 
 # Load the page from localhost
 browser = new Browser()
-browser.site = "http://sandbox.d7"
+browser.site = "http://localhost"
 browser.visit "/", ->
 
   # Fill email, password and submit form
