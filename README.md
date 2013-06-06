@@ -16,8 +16,7 @@ You will need Node.js 0.8 - use nvm to set this up.
 > echo ". ~/.nvm/nvm.sh" >> ~/.bashrc
 
 #### reload your terminal and install node 0.8
-> nvm install -s v0.8
-> nvm alias default v0.8
+> nvm install -s v0.8 && nvm alias default v0.8
 
 #### you'll also need npm
 > curl https://npmjs.org/install.sh | clean=no sh
