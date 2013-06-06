@@ -29,6 +29,8 @@ You will need Node.js 0.8 - use nvm to set this up.
 
 ## Try it out!
 ----
+> nvm use 0.8
+
 > coffee drupal-login.coffee
 
 ### Test Requirements
